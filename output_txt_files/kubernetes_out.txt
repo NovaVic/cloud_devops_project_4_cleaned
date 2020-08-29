@@ -1,0 +1,15 @@
+ec2-user:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+(.devops) ec2-user:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh 
+pod/sk-clouddevops-project4 created
+NAME                      READY   STATUS              RESTARTS   AGE
+sk-clouddevops-project4   0/1     ContainerCreating   0          0s
+pod/sk-clouddevops-project4 condition met
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
