@@ -21,6 +21,7 @@ The project goal is to operationalize this working, machine learning microservic
 * Complete a Dockerfile to containerize this application
  In ./Dockerfile
 * Deploy your containerized application using Docker and make a prediction
+
   docker run -p 8000:80 sk_clouddevops_project4 (in ./run_docker.sh)
 
 * Improve the log statements in the source code for this application
@@ -31,15 +32,22 @@ The project goal is to operationalize this working, machine learning microservic
 
 
 * Deploy a container using Kubernetes and make a prediction
+
   (In ./run_kubernetes.sh)
+  
   kubectl run sk-clouddevops-project4 --image=$dockerpath --port=80 
+  
   kubectl port-forward sk-clouddevops-project4 8000:80
+  
   ./make_prediction.sh
+  
 * Upload a complete Github repo with CircleCI to indicate that your code has been tested
+
   https://github.com/NovaVic/cloud_devops_project_4_cleaned
+
   https://app.circleci.com/pipelines/github/NovaVic/cloud_devops_project_4_cleaned
 
-You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
+Detail Requirements [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
 
 
 
@@ -48,9 +56,13 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ## Setup the Environment
 
 * Create a virtualenv and activate it
+
  cd DevOps_Microservices && project-ml-microservice-kubernetes
+ 
  python3 -m venv ~/.devops
+ 
  source ~/.devops/bin/activate
+ 
 * Run `make install` to install the necessary dependencies
 
 ### Running `app.py`
