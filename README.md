@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/novavic/cloud_devops_project_4_cleaned.svg?style=svg)](https://circleci.com/gh/novavic/cloud_devops_project_4_cleaned)
+[![novavic](https://circleci.com/gh/novavic/cloud_devops_project_4_cleaned.svg?style=svg)](https://circleci.com/gh/novavic/cloud_devops_project_4_cleaned)
 
 ## Project Overview
 
